@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="q9ns2lrslwq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-380,-300,156,715" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.MainMenu1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.N1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.StatusBar1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Panel1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Panel3" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Percent" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Division" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Multiplication" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Minus" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Cansel" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Seven" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Eight" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Nine" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Sum" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Four" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Five" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Six" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.One" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Two" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Three" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Equally" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Zero" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.PercentClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.DivisionClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.MinusClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.MultiplicationClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.CanselClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.SevenClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.EightClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.NineClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.SumClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FourClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FiveClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.SixClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.OneClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.TwoClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.ThreeClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.EquallyClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.ZeroClick(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.my" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.my">
+        <property name="sourceAnchor" value="-224,-139" />
+        <property name="targetAnchor" value="-20,-139" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.Form1" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.@unitclass.Form1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.MyController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-20,80,129,370" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.MyController.Model" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.PercentClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.DivisionClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.MinusClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.MultiplicationClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.CanselClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.SevenClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.EightClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.NineClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.SumClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.FourClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.FiveClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.SixClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.OneClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.TwoClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.ThreeClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.EquallyClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.ZeroClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.create()" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit2.MyController:Unit2.IController">
+        <property name="sourceAnchor" value="42,80" />
+        <property name="targetAnchor" value="42,21" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit2.MyController.Model">
+        <property name="sourceAnchor" value="109,240" />
+        <property name="targetAnchor" value="360,240" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit3.MyModel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,440,132,415" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.N1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.N2" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.Action" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.Text" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Zero()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.One()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Two()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Three()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Four()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Five()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Six()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Seven()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Eight()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Nine()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Cansel()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Division()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Minus()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Multiplication()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Sum()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Percent()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Equally()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.create()" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit3.MyModel.Action">
+        <property name="sourceAnchor" value="492,480" />
+        <property name="targetAnchor" value="820,480" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit3.MyModel:Unit3.IModel">
+        <property name="sourceAnchor" value="426,440" />
+        <property name="targetAnchor" value="426,401" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TCansel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,680,129,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TCansel.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TCansel:Unit4.TAction">
+        <property name="sourceAnchor" value="623,680" />
+        <property name="targetAnchor" value="821,520" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TAction">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="820,440,103,81" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TAction.execute(System.Extended,System.Extended)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TDivision">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="640,680,129,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TDivision.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TDivision:Unit4.TAction">
+        <property name="sourceAnchor" value="736,680" />
+        <property name="targetAnchor" value="843,521" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TMinus">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="780,680,129,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TMinus.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TMinus:Unit4.TAction">
+        <property name="sourceAnchor" value="864,680" />
+        <property name="targetAnchor" value="864,521" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TMultiplication">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="920,680,131,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TMultiplication.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TMultiplication:Unit4.TAction">
+        <property name="sourceAnchor" value="921,681" />
+        <property name="targetAnchor" value="920,521" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TPercent">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="1060,680,129,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TPercent.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TPercent:Unit4.TAction">
+        <property name="sourceAnchor" value="1074,680" />
+        <property name="targetAnchor" value="912,521" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TSum">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="1200,680,129,98" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TSum.execute(System.Extended,System.Extended)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TSum:Unit4.TAction">
+        <property name="sourceAnchor" value="1200,687" />
+        <property name="targetAnchor" value="923,512" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.IController">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="-20,-300,125,321" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.PercentClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.DivisionClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.MinusClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.MultiplicationClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.CanselClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.SevenClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.EightClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.NineClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.SumClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.FourClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.FiveClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.SixClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.OneClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.TwoClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.ThreeClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.EquallyClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.ZeroClick(Vcl.StdCtrls.TEdit)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit3.IModel">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,80,132,321" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Zero()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.One()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Two()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Three()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Four()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Five()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Six()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Seven()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Eight()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Nine()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Cansel()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Division()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Minus()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Multiplication()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Sum()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Percent()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Equally()" />
+    </reference>
+  </view>
+</nodeSet>
