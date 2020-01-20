@@ -3,7 +3,7 @@ unit Unit1;
 interface
 
 uses
-  Unit2,
+  Unit2, UAbout,
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
@@ -12,7 +12,7 @@ uses
 type
   TForm1 = class(TForm)
     MainMenu1: TMainMenu;
-    N1: TMenuItem;
+    File1: TMenuItem;
     StatusBar1: TStatusBar;
     Edit1: TEdit;
     Panel1: TPanel;
@@ -34,6 +34,15 @@ type
     Three: TButton;
     Equally: TButton;
     Zero: TButton;
+    Point: TButton;
+    Fraction: TButton;
+    Root: TButton;
+    Backspace: TButton;
+    CanselEdit: TButton;
+    Button1: TButton;
+    General: TMenuItem;
+    Help: TMenuItem;
+    About: TMenuItem;
     procedure PercentClick(Sender: TObject);
     procedure DivisionClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -52,6 +61,7 @@ type
     procedure ThreeClick(Sender: TObject);
     procedure EquallyClick(Sender: TObject);
     procedure ZeroClick(Sender: TObject);
+    procedure AboutClick(Sender: TObject);
   private
     /// <link>aggregation</link>
     my: IController;
@@ -99,6 +109,11 @@ end;
 procedure TForm1.ZeroClick(Sender: TObject);
 begin
   my.ZeroClick(Edit1);
+end;
+
+procedure TForm1.AboutClick(Sender: TObject);
+begin
+  FAbout.Show;
 end;
 
 procedure TForm1.CanselClick(Sender: TObject);

@@ -21,9 +21,6 @@ object Form1: TForm1
     Width = 431
     Height = 19
     Panels = <>
-    ExplicitLeft = 400
-    ExplicitTop = 240
-    ExplicitWidth = 0
   end
   object Panel1: TPanel
     Left = 0
@@ -34,7 +31,6 @@ object Form1: TForm1
     BevelOuter = bvNone
     BorderWidth = 8
     TabOrder = 1
-    ExplicitWidth = 635
     object Edit1: TEdit
       Left = 8
       Top = 8
@@ -62,11 +58,9 @@ object Form1: TForm1
     BevelOuter = bvNone
     TabOrder = 2
     ExplicitTop = 39
-    ExplicitWidth = 635
-    ExplicitHeight = 239
     object Division: TButton
-      Left = 97
-      Top = 16
+      Left = 259
+      Top = 47
       Width = 75
       Height = 25
       Caption = '/'
@@ -74,17 +68,17 @@ object Form1: TForm1
       OnClick = DivisionClick
     end
     object Multiplication: TButton
-      Left = 178
-      Top = 16
+      Left = 259
+      Top = 78
       Width = 75
       Height = 25
-      Caption = 'X'
+      Caption = '*'
       TabOrder = 1
       OnClick = MultiplicationClick
     end
     object Minus: TButton
       Left = 259
-      Top = 16
+      Top = 109
       Width = 75
       Height = 25
       Caption = '-'
@@ -92,7 +86,7 @@ object Form1: TForm1
       OnClick = MinusClick
     end
     object Cansel: TButton
-      Left = 340
+      Left = 178
       Top = 16
       Width = 75
       Height = 25
@@ -129,9 +123,9 @@ object Form1: TForm1
     end
     object Sum: TButton
       Left = 259
-      Top = 47
+      Top = 140
       Width = 75
-      Height = 56
+      Height = 25
       Caption = '+'
       TabOrder = 7
       OnClick = SumClick
@@ -191,7 +185,7 @@ object Form1: TForm1
       OnClick = ThreeClick
     end
     object Equally: TButton
-      Left = 259
+      Left = 340
       Top = 109
       Width = 75
       Height = 56
@@ -209,18 +203,76 @@ object Form1: TForm1
       OnClick = ZeroClick
     end
     object Percent: TButton
-      Left = 16
-      Top = 16
+      Left = 340
+      Top = 47
       Width = 75
       Height = 25
       Caption = '%'
       TabOrder = 16
       OnClick = PercentClick
     end
+    object Point: TButton
+      Left = 178
+      Top = 140
+      Width = 75
+      Height = 25
+      Caption = ','
+      TabOrder = 17
+    end
+    object Fraction: TButton
+      Left = 340
+      Top = 78
+      Width = 75
+      Height = 25
+      Caption = '1/x'
+      TabOrder = 18
+    end
+    object Root: TButton
+      Left = 340
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = #8730
+      TabOrder = 19
+    end
+    object Backspace: TButton
+      Left = 16
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = #8592
+      TabOrder = 20
+    end
+    object CanselEdit: TButton
+      Left = 97
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'CE'
+      TabOrder = 21
+    end
+    object Button1: TButton
+      Left = 259
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = #177
+      TabOrder = 22
+    end
   end
   object MainMenu1: TMainMenu
-    object N1: TMenuItem
+    object File1: TMenuItem
       Caption = #1060#1072#1081#1083
+      object General: TMenuItem
+        Caption = #1054#1073#1099#1095#1085#1099#1081
+      end
+    end
+    object Help: TMenuItem
+      Caption = #1057#1087#1088#1072#1074#1082#1072
+      object About: TMenuItem
+        Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+        OnClick = AboutClick
+      end
     end
   end
 end
