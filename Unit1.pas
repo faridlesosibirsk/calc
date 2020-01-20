@@ -62,6 +62,7 @@ type
     procedure EquallyClick(Sender: TObject);
     procedure ZeroClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
+    procedure PointClick(Sender: TObject);
   private
     /// <link>aggregation</link>
     my: IController;
@@ -79,6 +80,11 @@ implementation
 procedure TForm1.PercentClick(Sender: TObject);
 begin
   my.PercentClick(Edit1);
+end;
+
+procedure TForm1.PointClick(Sender: TObject);
+begin
+  my.PointClick(Edit1);
 end;
 
 procedure TForm1.SevenClick(Sender: TObject);

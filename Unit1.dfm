@@ -57,7 +57,6 @@ object Form1: TForm1
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitTop = 39
     object Division: TButton
       Left = 259
       Top = 47
@@ -218,6 +217,7 @@ object Form1: TForm1
       Height = 25
       Caption = ','
       TabOrder = 17
+      OnClick = PointClick
     end
     object Fraction: TButton
       Left = 340
@@ -225,6 +225,7 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = '1/x'
+      Enabled = False
       TabOrder = 18
     end
     object Root: TButton
@@ -233,6 +234,7 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #8730
+      Enabled = False
       TabOrder = 19
     end
     object Backspace: TButton
@@ -241,6 +243,7 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #8592
+      Enabled = False
       TabOrder = 20
     end
     object CanselEdit: TButton
@@ -249,6 +252,7 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = 'CE'
+      Enabled = False
       TabOrder = 21
     end
     object Button1: TButton
@@ -257,6 +261,7 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #177
+      Enabled = False
       TabOrder = 22
     end
   end

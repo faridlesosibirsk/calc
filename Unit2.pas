@@ -25,6 +25,7 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
+    procedure PointClick(Edit1: TEdit);
   end;
 
   MyController = class(TInterfacedObject, IController)
@@ -49,6 +50,7 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
+    procedure PointClick(Edit1: TEdit);
     constructor create;
   end;
 
@@ -114,6 +116,11 @@ end;
 procedure MyController.PercentClick(Edit1: TEdit);
 begin
   Edit1.Text := Model.Percent;
+end;
+
+procedure MyController.PointClick(Edit1: TEdit);
+begin
+  Model.Point;
 end;
 
 procedure MyController.SevenClick(Edit1: TEdit);
