@@ -6,7 +6,7 @@
     <property name="$name" value="default" />
     <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="-380,-300,156,715" />
+      <property name="bounds" value="-380,-300,156,940" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.MainMenu1" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.N1" />
@@ -51,10 +51,26 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.ZeroClick(System.TObject)" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.my" />
       <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.my">
-        <property name="sourceAnchor" value="-224,-139" />
-        <property name="targetAnchor" value="-20,-139" />
+        <property name="sourceAnchor" value="-224,-102" />
+        <property name="targetAnchor" value="-180,-102" />
         <property name="bendpoints" value="" />
       </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.File1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Point" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Fraction" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Root" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Backspace" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.CanselEdit" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.General" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Help" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.About" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.PlusMinus" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.AboutClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.BackspaceClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.CanselEditClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.PlusMinusClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.RootClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FractionClick(System.TObject)" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit1.@unitclass">
       <property name="$shortcutReference" value="true" />
@@ -63,7 +79,7 @@
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit2.MyController">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="-20,80,129,370" />
+      <property name="bounds" value="-180,200,129,445" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit2.MyController.Model" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.PercentClick(Vcl.StdCtrls.TEdit)" />
@@ -85,19 +101,24 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.ZeroClick(Vcl.StdCtrls.TEdit)" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.create()" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit2.MyController:Unit2.IController">
-        <property name="sourceAnchor" value="42,80" />
-        <property name="targetAnchor" value="42,21" />
+        <property name="sourceAnchor" value="-117,200" />
+        <property name="targetAnchor" value="-117,96" />
         <property name="bendpoints" value="" />
       </reference>
       <reference referencedUin="delphi:l_ast:src:Project1:Unit2.MyController.Model">
-        <property name="sourceAnchor" value="109,240" />
-        <property name="targetAnchor" value="360,240" />
+        <property name="sourceAnchor" value="-51,218" />
+        <property name="targetAnchor" value="0,218" />
         <property name="bendpoints" value="" />
       </reference>
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.BackspaceClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.CanselEditClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.PlusMinusClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.RootClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.MyController.FractionClick(Vcl.StdCtrls.TEdit)" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit3.MyModel">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="360,440,132,415" />
+      <property name="bounds" value="0,280,132,580" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.N1" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.N2" />
@@ -122,91 +143,104 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Equally()" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.create()" />
       <reference referencedUin="delphi:l_ast:src:Project1:Unit3.MyModel.Action">
-        <property name="sourceAnchor" value="492,480" />
-        <property name="targetAnchor" value="820,480" />
+        <property name="sourceAnchor" value="132,290" />
+        <property name="targetAnchor" value="580,290" />
         <property name="bendpoints" value="" />
       </reference>
       <reference referencedUin="delphi:l_impl:src:Project1:Unit3.MyModel:Unit3.IModel">
-        <property name="sourceAnchor" value="426,440" />
-        <property name="targetAnchor" value="426,401" />
+        <property name="sourceAnchor" value="66,280" />
+        <property name="targetAnchor" value="66,236" />
         <property name="bendpoints" value="" />
       </reference>
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.emptyValue" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.emptyString" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.increasingDigit" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.reducingDigit" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.Digit" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.Number1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.MyModel.Number2" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.numberDigit(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Backspace()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.CanselEdit()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.PlusMinus()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Root()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.MyModel.Fraction()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TCansel">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="500,680,129,98" />
+      <property name="bounds" value="260,460,129,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TCansel.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TCansel:Unit4.TAction">
-        <property name="sourceAnchor" value="623,680" />
-        <property name="targetAnchor" value="821,520" />
+        <property name="sourceAnchor" value="383,460" />
+        <property name="targetAnchor" value="581,300" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TAction">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="820,440,103,81" />
+      <property name="bounds" value="580,220,103,81" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TAction.execute(System.Extended,System.Extended)" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TDivision">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="640,680,129,98" />
+      <property name="bounds" value="400,460,129,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TDivision.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TDivision:Unit4.TAction">
-        <property name="sourceAnchor" value="736,680" />
-        <property name="targetAnchor" value="843,521" />
+        <property name="sourceAnchor" value="496,460" />
+        <property name="targetAnchor" value="603,301" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TMinus">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="780,680,129,98" />
+      <property name="bounds" value="540,460,129,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TMinus.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TMinus:Unit4.TAction">
-        <property name="sourceAnchor" value="864,680" />
-        <property name="targetAnchor" value="864,521" />
+        <property name="sourceAnchor" value="624,460" />
+        <property name="targetAnchor" value="624,301" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TMultiplication">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="920,680,131,98" />
+      <property name="bounds" value="680,460,131,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TMultiplication.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TMultiplication:Unit4.TAction">
-        <property name="sourceAnchor" value="921,681" />
-        <property name="targetAnchor" value="920,521" />
+        <property name="sourceAnchor" value="681,461" />
+        <property name="targetAnchor" value="680,301" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TPercent">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="1060,680,129,98" />
+      <property name="bounds" value="820,460,129,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TPercent.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TPercent:Unit4.TAction">
-        <property name="sourceAnchor" value="1074,680" />
-        <property name="targetAnchor" value="912,521" />
+        <property name="sourceAnchor" value="834,460" />
+        <property name="targetAnchor" value="672,301" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit4.TSum">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="1200,680,129,98" />
+      <property name="bounds" value="960,460,129,98" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit4.TSum.execute(System.Extended,System.Extended)" />
       <reference referencedUin="delphi:l_impl:src:Project1:Unit4.TSum:Unit4.TAction">
-        <property name="sourceAnchor" value="1200,687" />
-        <property name="targetAnchor" value="923,512" />
+        <property name="sourceAnchor" value="960,467" />
+        <property name="targetAnchor" value="683,292" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit2.IController">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="-20,-300,125,321" />
+      <property name="bounds" value="-180,-300,125,396" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.PercentClick(Vcl.StdCtrls.TEdit)" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.DivisionClick(Vcl.StdCtrls.TEdit)" />
@@ -225,10 +259,15 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.ThreeClick(Vcl.StdCtrls.TEdit)" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.EquallyClick(Vcl.StdCtrls.TEdit)" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.ZeroClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.BackspaceClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.CanselEditClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.PlusMinusClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.RootClick(Vcl.StdCtrls.TEdit)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.IController.FractionClick(Vcl.StdCtrls.TEdit)" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:Unit3.IModel">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="360,80,132,321" />
+      <property name="bounds" value="0,-160,132,396" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Zero()" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.One()" />
@@ -247,6 +286,11 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Sum()" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Percent()" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Equally()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Backspace()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.CanselEdit()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.PlusMinus()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Root()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.IModel.Fraction()" />
     </reference>
   </view>
 </nodeSet>
