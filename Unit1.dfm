@@ -247,7 +247,6 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #8730
-      Enabled = False
       TabOrder = 19
       OnClick = RootClick
     end

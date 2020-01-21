@@ -25,7 +25,6 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
-
     procedure BackspaceClick(Edit1: TEdit);
     procedure CanselEditClick(Edit1: TEdit);
     procedure PlusMinusClick(Edit1: TEdit);
@@ -55,7 +54,6 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
-
     procedure BackspaceClick(Edit1: TEdit);
     procedure CanselEditClick(Edit1: TEdit);
     procedure PlusMinusClick(Edit1: TEdit);

@@ -26,7 +26,6 @@ type
     function Sum: string;
     function Percent: string;
     function Equally: string;
-
     function Backspace: string;
     function CanselEdit: string;
     function PlusMinus: string;
@@ -65,7 +64,6 @@ type
     function Sum: string;
     function Percent: string;
     function Equally: string;
-
     function Backspace: string;
     function CanselEdit: string;
     function PlusMinus: string;
@@ -85,7 +83,8 @@ end;
 
 function MyModel.Root: string;
 begin
-
+  Text := FloatToStr( Sqrt(StrToFloat(Text)) );
+  Result := Text;
 end;
 
 constructor MyModel.create;
