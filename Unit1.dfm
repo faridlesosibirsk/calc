@@ -1,9 +1,11 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = #1050#1072#1083#1100#1082#1091#1083#1103#1090#1086#1088
-  ClientHeight = 241
-  ClientWidth = 431
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsToolWindow
+  Caption = ' '#1050#1072#1083#1100#1082#1091#1083#1103#1090#1086#1088
+  ClientHeight = 251
+  ClientWidth = 432
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,27 +19,34 @@ object Form1: TForm1
   TextHeight = 13
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 222
-    Width = 431
+    Top = 232
+    Width = 432
     Height = 19
     Panels = <>
+    ExplicitLeft = 8
+    ExplicitTop = 73
+    ExplicitWidth = 431
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 431
+    Width = 432
     Height = 41
     Align = alTop
     BevelOuter = bvNone
     BorderWidth = 8
     TabOrder = 1
+    ExplicitLeft = 24
+    ExplicitTop = 16
+    ExplicitWidth = 431
     object Edit1: TEdit
       Left = 8
       Top = 8
-      Width = 415
+      Width = 416
       Height = 25
       Align = alClient
-      BiDiMode = bdRightToLeft
+      Alignment = taRightJustify
+      BiDiMode = bdLeftToRight
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -13
@@ -52,11 +61,15 @@ object Form1: TForm1
   object Panel3: TPanel
     Left = 0
     Top = 41
-    Width = 431
-    Height = 181
+    Width = 432
+    Height = 191
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
+    ExplicitLeft = 8
+    ExplicitTop = 98
+    ExplicitWidth = 431
+    ExplicitHeight = 181
     object Division: TButton
       Left = 259
       Top = 47
@@ -216,8 +229,8 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = ','
+      Enabled = False
       TabOrder = 17
-      OnClick = PointClick
     end
     object Fraction: TButton
       Left = 340
@@ -225,8 +238,8 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = '1/x'
-      Enabled = False
       TabOrder = 18
+      OnClick = FractionClick
     end
     object Root: TButton
       Left = 340
@@ -234,8 +247,8 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #8730
-      Enabled = False
       TabOrder = 19
+      OnClick = RootClick
     end
     object Backspace: TButton
       Left = 16
@@ -243,8 +256,8 @@ object Form1: TForm1
       Width = 75
       Height = 25
       Caption = #8592
-      Enabled = False
       TabOrder = 20
+      OnClick = BackspaceClick
     end
     object CanselEdit: TButton
       Left = 97
@@ -254,15 +267,16 @@ object Form1: TForm1
       Caption = 'CE'
       Enabled = False
       TabOrder = 21
+      OnClick = CanselEditClick
     end
-    object Button1: TButton
+    object PlusMinus: TButton
       Left = 259
       Top = 16
       Width = 75
       Height = 25
       Caption = #177
-      Enabled = False
       TabOrder = 22
+      OnClick = PlusMinusClick
     end
   end
   object MainMenu1: TMainMenu

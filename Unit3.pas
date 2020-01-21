@@ -26,7 +26,11 @@ type
     function Sum: string;
     function Percent: string;
     function Equally: string;
-    procedure Point;
+    function Backspace: string;
+    function CanselEdit: string;
+    function PlusMinus: string;
+    function Root: string;
+    function Fraction: string;
   end;
 
   MyModel = class(TInterfacedObject, IModel)
@@ -37,7 +41,7 @@ type
     reducingDigit = 0.1;
   private
     Digit: Extended;
-    N1, N2: Extended;
+    Number1, Number2: Extended;
     /// <link>aggregation</link>
     Action: TAction;
     Text: string;
@@ -60,7 +64,11 @@ type
     function Sum: string;
     function Percent: string;
     function Equally: string;
-    procedure Point;
+    function Backspace: string;
+    function CanselEdit: string;
+    function PlusMinus: string;
+    function Root: string;
+    function Fraction: string;
     constructor create;
   end;
 
@@ -68,15 +76,21 @@ implementation
 
 { MyModel }
 
-procedure MyModel.Point;
+function MyModel.CanselEdit: string;
 begin
-  Digit := reducingDigit;
+  
+end;
+
+function MyModel.Root: string;
+begin
+  Text := FloatToStr( Sqrt(StrToFloat(Text)) );
+  Result := Text;
 end;
 
 constructor MyModel.create;
 begin
-  N1 := emptyValue;
-  N2 := emptyValue;
+  Number1 := emptyValue;
+  Number2 := emptyValue;
   Text := emptyString;
   Digit := increasingDigit;
 end;
@@ -84,6 +98,12 @@ end;
 function MyModel.numberDigit(number: integer): string;
 begin
   Text := FloatToStr(StrToFloat(Text) * Digit + number);
+  Result := Text;
+end;
+
+function MyModel.Backspace: string;
+begin
+  Delete(Text, length(Text), 1);
   Result := Text;
 end;
 
@@ -97,7 +117,7 @@ end;
 function MyModel.Division: string;
 begin
   Action := TDivision.create;
-  N1 := StrToFloat(Text);
+  Number1 := StrToFloat(Text);
   Text := emptyString;
   Result := Text;
 end;
@@ -109,8 +129,8 @@ end;
 
 function MyModel.Equally: string;
 begin
-  N2 := StrToInt(Text);
-  Text := Action.execute(N1, N2);
+  Number2 := StrToInt(Text);
+  Text := Action.execute(Number1, Number2);
   Result := Text;
 end;
 
@@ -124,10 +144,16 @@ begin
   Result := numberDigit(4);
 end;
 
+function MyModel.Fraction: string;
+begin
+  Text := FloatToStr( 1 / StrToFloat(Text) );
+  Result := Text;
+end;
+
 function MyModel.Minus: string;
 begin
   Action := TMinus.create;
-  N1 := StrToFloat(Text);
+  Number1 := StrToFloat(Text);
   Text := emptyString;
   Result := Text;
 end;
@@ -135,7 +161,7 @@ end;
 function MyModel.Multiplication: string;
 begin
   Action := TMultiplication.create;
-  N1 := StrToFloat(Text);
+  Number1 := StrToFloat(Text);
   Text := emptyString;
   Result := Text;
 end;
@@ -153,8 +179,14 @@ end;
 function MyModel.Percent: string;
 begin
   Action := TPercent.create;
-  N1 := StrToFloat(Text);
+  Number1 := StrToFloat(Text);
   Text := emptyString;
+  Result := Text;
+end;
+
+function MyModel.PlusMinus: string;
+begin
+  Text := FloatToStr(StrToFloat(Text) * (-1));
   Result := Text;
 end;
 
@@ -171,7 +203,7 @@ end;
 function MyModel.Sum: string;
 begin
   Action := TSum.create;
-  N1 := StrToFloat(Text);
+  Number1 := StrToFloat(Text);
   Text := emptyString;
   Result := Text;
 end;

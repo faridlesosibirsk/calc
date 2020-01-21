@@ -39,10 +39,10 @@ type
     Root: TButton;
     Backspace: TButton;
     CanselEdit: TButton;
-    Button1: TButton;
     General: TMenuItem;
     Help: TMenuItem;
     About: TMenuItem;
+    PlusMinus: TButton;
     procedure PercentClick(Sender: TObject);
     procedure DivisionClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -62,7 +62,11 @@ type
     procedure EquallyClick(Sender: TObject);
     procedure ZeroClick(Sender: TObject);
     procedure AboutClick(Sender: TObject);
-    procedure PointClick(Sender: TObject);
+    procedure BackspaceClick(Sender: TObject);
+    procedure CanselEditClick(Sender: TObject);
+    procedure PlusMinusClick(Sender: TObject);
+    procedure RootClick(Sender: TObject);
+    procedure FractionClick(Sender: TObject);
   private
     /// <link>aggregation</link>
     my: IController;
@@ -82,9 +86,14 @@ begin
   my.PercentClick(Edit1);
 end;
 
-procedure TForm1.PointClick(Sender: TObject);
+procedure TForm1.PlusMinusClick(Sender: TObject);
 begin
-  my.PointClick(Edit1);
+  my.PlusMinusClick(Edit1);
+end;
+
+procedure TForm1.RootClick(Sender: TObject);
+begin
+  my.RootClick(Edit1);
 end;
 
 procedure TForm1.SevenClick(Sender: TObject);
@@ -122,9 +131,20 @@ begin
   FAbout.Show;
 end;
 
+procedure TForm1.BackspaceClick(Sender: TObject);
+begin
+  my.BackspaceClick(Edit1);
+end;
+
+
 procedure TForm1.CanselClick(Sender: TObject);
 begin
   my.CanselClick(Edit1);
+end;
+
+procedure TForm1.CanselEditClick(Sender: TObject);
+begin
+  my.CanselEditClick(Edit1);
 end;
 
 procedure TForm1.DivisionClick(Sender: TObject);
@@ -157,6 +177,11 @@ end;
 procedure TForm1.FourClick(Sender: TObject);
 begin
   my.FourClick(Edit1);
+end;
+
+procedure TForm1.FractionClick(Sender: TObject);
+begin
+  my.FractionClick(Edit1);
 end;
 
 procedure TForm1.MinusClick(Sender: TObject);
