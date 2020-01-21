@@ -25,7 +25,12 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
-    procedure PointClick(Edit1: TEdit);
+
+    procedure BackspaceClick(Edit1: TEdit);
+    procedure CanselEditClick(Edit1: TEdit);
+    procedure PlusMinusClick(Edit1: TEdit);
+    procedure RootClick(Edit1: TEdit);
+    procedure FractionClick(Edit1: TEdit);
   end;
 
   MyController = class(TInterfacedObject, IController)
@@ -50,7 +55,12 @@ type
     procedure ThreeClick(Edit1: TEdit);
     procedure EquallyClick(Edit1: TEdit);
     procedure ZeroClick(Edit1: TEdit);
-    procedure PointClick(Edit1: TEdit);
+
+    procedure BackspaceClick(Edit1: TEdit);
+    procedure CanselEditClick(Edit1: TEdit);
+    procedure PlusMinusClick(Edit1: TEdit);
+    procedure RootClick(Edit1: TEdit);
+    procedure FractionClick(Edit1: TEdit);
     constructor create;
   end;
 
@@ -58,9 +68,19 @@ implementation
 
 { MyAction }
 
+procedure MyController.BackspaceClick(Edit1: TEdit);
+begin
+  Edit1.Text := Model.Backspace;
+end;
+
 procedure MyController.CanselClick(Edit1: TEdit);
 begin
   Edit1.Text := Model.cansel;
+end;
+
+procedure MyController.CanselEditClick(Edit1: TEdit);
+begin
+  Edit1.Text := Model.Cansel;
 end;
 
 constructor MyController.create;
@@ -93,6 +113,11 @@ begin
   Edit1.Text := Model.Four;
 end;
 
+procedure MyController.FractionClick(Edit1: TEdit);
+begin
+  Edit1.Text := Model.Fraction;
+end;
+
 procedure MyController.MinusClick(Edit1: TEdit);
 begin
   Edit1.Text := Model.Minus;
@@ -118,9 +143,14 @@ begin
   Edit1.Text := Model.Percent;
 end;
 
-procedure MyController.PointClick(Edit1: TEdit);
+procedure MyController.PlusMinusClick(Edit1: TEdit);
 begin
-  Model.Point;
+  Edit1.Text := Model.PlusMinus;
+end;
+
+procedure MyController.RootClick(Edit1: TEdit);
+begin
+  Edit1.Text := Model.Root;
 end;
 
 procedure MyController.SevenClick(Edit1: TEdit);

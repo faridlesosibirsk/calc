@@ -11,7 +11,7 @@ type
     OK: TButton;
     Label1: TLabel;
     Label2: TLabel;
-    Image1: TImage;
+    Image2: TImage;
     procedure OKClick(Sender: TObject);
   private
     { Private declarations }
